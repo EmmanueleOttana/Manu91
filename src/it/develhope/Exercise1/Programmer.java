@@ -5,14 +5,13 @@ public class Programmer {
     public int age;
     public boolean wearsGlasses;
 
-    public static void drinkCoffe() {
+    public void drinkCoffe() {
         System.out.println("Espresso is the secret!");
     }
-    public static void printDetails(String name, int age) {
+    public void printDetails() {
         System.out.println(name+" is a "+age+" yo programmer");
-        drinkCoffe();
     }
-    public static void asGlasses(String name, boolean wearsGlasses) {
+    public void asGlasses() {
         System.out.println(name+" wearing glasses? "+wearsGlasses);
     }
 
