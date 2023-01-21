@@ -12,9 +12,9 @@ public class Person {
     static void detailsPerson(){
         System.out.println("Person{"+
         " name = "+ name+
-        " surname = "+surname+
-        " height = "+height+
-        " age = "+ age);
+        ", surname = "+surname+
+        ", height = "+height+
+        ", age = "+ age+" }");
     }
     public static void main(String[] args) {
 
