@@ -17,5 +17,4 @@ public class Boolean2 {
         System.out.println(C);
         System.out.println(D);
     }
-    //Quindi confronta le tue soluzioni con un programma Java che verifica la validità delle tue ipotesi.
 }
