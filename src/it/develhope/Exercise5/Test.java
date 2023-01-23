@@ -1,11 +1,11 @@
 package it.develhope.Exercise5;
 
 public class Test {
-    static Assistant assistant = new Assistant();
-    static Professor professor = new Professor();
-    static Student student = new Student();
-
     public static void main(String[] args) {
+        Assistant assistant = new Assistant();
+        Professor professor = new Professor();
+        Student student = new Student();
+
         //Assegnazione info personali
         assistant.infoAssistant("Edwin","Jarvis",37,true);
         professor.infoProfessor("Tony","Stark",10,"scientist");
