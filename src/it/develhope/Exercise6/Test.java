@@ -1,25 +1,18 @@
 package it.develhope.Exercise6;
 
 public class Test {
-    //Creazione forme
-    static Shape shape = new Shape();
-    static Shape circle = new Shape(7.3);
-    static Shape square = new Shape(4,10);
-    static Shape rectangle = new Shape(4,2.5,5.2);
-    static Shape triangle = new Shape(3,1.6,4.2,3.7);
-    //Assegnazione forme
-    static String detailsShape = shape.getShapeDetails();
-    static String detailsCircle = circle.getShapeDetails();
-    static String detailsSquare = square.getShapeDetails();
-    static String detailsRectangle = rectangle.getShapeDetails();
-    static String detailsTriangle = triangle.getShapeDetails();
-
     public static void main(String[] args) {
-        //Stampa dettagli forme
-        System.out.println(detailsShape);
-        System.out.println(detailsCircle);
-        System.out.println(detailsSquare);
-        System.out.println(detailsRectangle);
-        System.out.println(detailsTriangle);
+        //Creazione forme
+        Shape shape = new Shape();
+        Shape circle = new Shape(7.3);
+        Shape square = new Shape(4,10);
+        Shape rectangle = new Shape(4,2.5,5.2);
+        Shape triangle = new Shape(3,1.6,4.2,3.7);
+        //Assegnazione forme
+        System.out.println(shape.getShapeDetails());
+        System.out.println(circle.getShapeDetails());
+        System.out.println(square.getShapeDetails());
+        System.out.println(rectangle.getShapeDetails());
+        System.out.println(triangle.getShapeDetails());
     }
 }
