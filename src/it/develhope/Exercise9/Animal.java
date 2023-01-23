@@ -3,14 +3,14 @@ package it.develhope.Exercise9;
 public class Animal {
     String animalName;
 
-    public void constructor(String animalName){
+    public Animal(String animalName){
         this.animalName = animalName;
     }
     public void animalSound(){
         System.out.println("Roarr!");
     };
    public void animalSound(String intensity){
-        System.out.println("Roarrrrrrrr!");
-    };
-
+       if(intensity == "high") System.out.println("Roarrrrrrrr!");
+       else System.out.println("Cannot reproduce it properly in other cases!");
+    }
 }
