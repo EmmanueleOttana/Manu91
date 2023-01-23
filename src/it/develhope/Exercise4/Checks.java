@@ -1,11 +1,11 @@
 package it.develhope.Exercise4;
 
 public class Checks {
-    public static Student Emmanuele = new Student();
-    public static Student Daniela = new Student();
-    public static Teacher Giulia = new Teacher();
-
     public static void main(String args[]){
+        Student Emmanuele = new Student();
+        Student Daniela = new Student();
+        Teacher Giulia = new Teacher();
+
         //Creazione insegnante
         Giulia.creationTeacher("Giulia");
         //Creazione studenti
