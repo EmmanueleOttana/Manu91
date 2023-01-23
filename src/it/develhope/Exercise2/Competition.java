@@ -1,22 +1,11 @@
 package it.develhope.Exercise2;
 
 public class Competition {
+    //Collegamenti alle classi
+    public static CompetitionRules competitionRules = new CompetitionRules();
     //Creazione team
     public static Team teamA = new Team();
     public static Team teamB = new Team();
-
-    //Collegamenti alle classi
-    public static CompetitionRules competitionRules = new CompetitionRules();
-    public String getTimeNameA() { return teamA.teamName; }
-    public String getTimeNameB() { return teamB.teamName; }
-    public void getTeamA(){
-        System.out.println(teamA.p1.printProgrammerDetails());
-        System.out.println(teamA.p2.printProgrammerDetails());
-    }
-    public void getTeamB(){
-        System.out.println(teamB.p1.printProgrammerDetails());
-        System.out.println(teamB.p2.printProgrammerDetails());
-    }
 
     public static void main(String[] args) {
         //Assegnazione nome
@@ -31,6 +20,5 @@ public class Competition {
 
         //Stampa
         competitionRules.printRules();
-        Team.printTeamDetails();
     }
 }

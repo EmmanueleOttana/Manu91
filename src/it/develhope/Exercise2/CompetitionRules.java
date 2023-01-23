@@ -1,6 +1,6 @@
 package it.develhope.Exercise2;
 
-public class CompetitionRules {
+public class CompetitionRules extends Team{
     public String competitionRule1 = "Do not copy and paste from StackOverflow!";
     public String competitionRule2 = "Learn every day!";
     public String competitionRule3 = "Be the best Team!";
@@ -10,5 +10,6 @@ public class CompetitionRules {
         System.out.println(competitionRule1);
         System.out.println(competitionRule2);
         System.out.println(competitionRule3);
+        printTeamDetails();
     }
 }
