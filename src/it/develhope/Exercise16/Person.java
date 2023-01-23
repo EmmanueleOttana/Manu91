@@ -6,7 +6,7 @@ public class Person {
 
     int age;
 
-    public void generatorNumber(int min, int max) {
+    public Person(int min, int max) {
         this.age = (int)Math.floor(Math.random() * (max - min + 1) + min);
         System.out.println( String.format("The person's age is %d years old",this.age));
     }
