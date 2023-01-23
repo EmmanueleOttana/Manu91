@@ -1,8 +1,6 @@
 package it.develhope.Exercise2;
 
 public class Competition {
-    //Collegamenti alle classi
-    public static CompetitionRules competitionRules = new CompetitionRules();
     //Creazione team
     public static Team teamA = new Team();
     public static Team teamB = new Team();
@@ -19,6 +17,6 @@ public class Competition {
         teamB.p2.name = "Elisa"; teamB.p2.programmingLanguage = "Python"; teamB.p2.yearsOfExperience = 8;
 
         //Stampa
-        competitionRules.printRules();
+        CompetitionRules.printRules();
     }
 }
