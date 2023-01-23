@@ -1,6 +1,5 @@
 package it.develhope.Exercise12;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Person {
@@ -9,13 +8,15 @@ public class Person {
     static double height;
     static int age;
 
-    static void detailsPerson(){
-        System.out.println("Person{"+
-        " name = "+ name+
-        ", surname = "+surname+
-        ", height = "+height+
-        ", age = "+ age+" }");
+    public static String printPerson() {
+        return "Person{ " +
+                "name = " + name +
+                ", surname = " + surname +
+                ", height = " + height +
+                ", age = " + age +
+                " }";
     }
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -29,6 +30,6 @@ public class Person {
         System.out.println("Please enter age");
         age = scanner.nextInt();
 
-        detailsPerson();
+        System.out.println(printPerson());
     }
 }
