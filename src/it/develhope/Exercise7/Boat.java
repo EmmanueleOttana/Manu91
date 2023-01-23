@@ -9,7 +9,7 @@ public class Boat extends Vehicle{
     public void doVehicleSound() {
         System.out.printf("The sound of the %s is bruuu bruuu",type);
     }
-    public void detailsBoat(int weight,double maxSpeed){
+    public Boat(int weight,double maxSpeed){
         this.boatKilosWeight = weight;
         this.maxKnotsSpeed = maxSpeed;
         this.type = "Boat";

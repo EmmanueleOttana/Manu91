@@ -14,7 +14,7 @@ public class Car extends Vehicle{
         System.out.println();
         System.out.printf("The %s has %d doors",type, numberOfDoors);
     }
-    public void detailsCar(int wheels,int doors,double price){
+    public Car(int wheels,int doors,double price){
         this.numberOfWheels = wheels;
         this.numberOfDoors = doors;
         this.carPrice = price;
