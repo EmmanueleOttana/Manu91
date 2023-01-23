@@ -4,9 +4,7 @@ import java.util.Arrays;
 
 public class Tester {
     public static void main(String[] args) {
-        Student student = new Student();
-
-        student.constructor("Emmanuele",31);
+        Student student = new Student("Emmanuele",31);
 
         student.guessingAge();
     }

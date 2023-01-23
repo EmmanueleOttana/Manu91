@@ -8,7 +8,7 @@ public class Student {
     int age;
     int randomNumber;
 
-    public void constructor(String name, int age) {
+    public Student(String name, int age) {
         this.name = name;
         this.age = age;
     }
