@@ -18,5 +18,6 @@ public class Competition {
 
         //Stampa
         CompetitionRules.printRules();
+        Team.printTeamDetails();
     }
 }

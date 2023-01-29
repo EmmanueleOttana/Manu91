@@ -10,6 +10,5 @@ public class CompetitionRules {
         System.out.println(competitionRule1);
         System.out.println(competitionRule2);
         System.out.println(competitionRule3);
-        Team.printTeamDetails();
     }
 }
