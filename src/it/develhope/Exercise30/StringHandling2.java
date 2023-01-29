@@ -13,7 +13,7 @@ public class StringHandling2 {
 
         String all = sub1+" "+string2+" "+sub2;
 
-        char[] charArray = all.toCharArray();
+        char[] charArray = all.toUpperCase().toCharArray();
 
         System.out.println(charArray);
     }
