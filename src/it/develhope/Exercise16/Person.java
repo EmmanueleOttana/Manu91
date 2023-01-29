@@ -6,8 +6,8 @@ public class Person {
 
     int age;
 
-    public Person(int min, int max) {
-        this.age = (int)Math.floor(Math.random() * (max - min + 1) + min);
+    public Person() {
+        this.age = (int)Math.floor(Math.random() * (80 - 5 + 1) + 5);
         System.out.println( String.format("The person's age is %d years old",this.age));
     }
 
