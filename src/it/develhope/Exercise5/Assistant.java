@@ -10,7 +10,7 @@ public class Assistant extends CollegePerson implements TeachingPerson, Learning
     public void teachToOtherPeople() { System.out.println("Assistant "+this.surname+" "+this.name+
             " is studying the topic: The approach to the student");
     }
-    public void infoAssistant(String name, String  surname, int id, boolean willBeAPhD){
+    public Assistant(String name, String  surname, int id, boolean willBeAPhD){
         this.name = name;
         this.surname = surname;
         this.collegeId = id;

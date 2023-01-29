@@ -2,14 +2,10 @@ package it.develhope.Exercise5;
 
 public class Test {
     public static void main(String[] args) {
-        Assistant assistant = new Assistant();
-        Professor professor = new Professor();
-        Student student = new Student();
+        Assistant assistant = new Assistant("Edwin","Jarvis",37,true);
+        Professor professor = new Professor("Tony","Stark",10,"scientist");
+        Student student = new Student("Peter","Parker",73,5);
 
-        //Assegnazione info personali
-        assistant.infoAssistant("Edwin","Jarvis",37,true);
-        professor.infoProfessor("Tony","Stark",10,"scientist");
-        student.infoStudent("Peter","Parker",73,5);
         //Stampa info personali
         assistant.goToCollege();
         professor.goToCollege();
