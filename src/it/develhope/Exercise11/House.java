@@ -3,21 +3,21 @@ package it.develhope.Exercise11;
 import java.util.Scanner;
 
 public class House {
-    int floorsNumber;
-    String address;
-    String residentsNames;
+    private int floorsNumber;
+    private String address;
+    private String residentsNames;
     Scanner scanner = new Scanner(System.in);
 
-    public void setAddress() {
+    public void getAddress() {
         System.out.println("Please enter the street of the residents");
         this.address = scanner.nextLine();
     }
-    public void setFloorsNumber() {
+    public void getFloorsNumber() {
         System.out.println("How many floors does the resident have?");
         this.floorsNumber = scanner.nextInt();
         scanner.nextLine();
     }
-    public void setResidentsNames(){
+    public void getResidentsNames(){
         System.out.println("Please enter names of residents?");
         this.residentsNames = scanner.nextLine();
     }
