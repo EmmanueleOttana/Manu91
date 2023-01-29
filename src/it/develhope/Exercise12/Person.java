@@ -3,12 +3,14 @@ package it.develhope.Exercise12;
 import java.util.Scanner;
 
 public class Person {
-    static String name;
-    static String surname;
-    static double height;
-    static int age;
+    private String name;
+    private String surname;
+    private double height;
+    private int age;
 
-    public static String printPerson() {
+    Scanner scanner = new Scanner(System.in);
+
+    public String printPerson() {
         return "Person{ " +
                 "name = " + name +
                 ", surname = " + surname +
@@ -17,19 +19,14 @@ public class Person {
                 " }";
     }
 
-    public static void main(String[] args) {
-
-        Scanner scanner = new Scanner(System.in);
-
+    public void getPersonDetails() {
         System.out.println("Please enter name");
-        name = scanner.nextLine();
+        this.name = scanner.nextLine();
         System.out.println("Please enter last name");
-        surname = scanner.nextLine();
+        this.surname = scanner.nextLine();
         System.out.println("Please enter height");
-        height = scanner.nextDouble();
+        this.height = scanner.nextDouble();
         System.out.println("Please enter age");
-        age = scanner.nextInt();
-
-        System.out.println(printPerson());
+        this.age = scanner.nextInt();
     }
 }
