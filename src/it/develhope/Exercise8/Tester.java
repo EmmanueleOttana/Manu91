@@ -16,7 +16,7 @@ public class Tester {
         System.out.println(s10.toString());
         System.out.println(a5.toString());
 
-        if (s10.equals(a5) == true) {
+        if (s10.equals(a5)) {
             System.out.println("The S10 smartphone is the same as the S5 smartphone");
         } else {
             System.out.println("The S10 smartphone is not the same as the A5 smartphone");
@@ -24,7 +24,7 @@ public class Tester {
         try {
             a5.clone();
             System.out.println(a5.clone());
-            if(a5.equals(a5.clone()) == true){
+            if(a5.equals(a5.clone())){
                 System.out.println("The A5 smartphone is the same as the cloned A5 smartphone");
             }else{
                 System.out.println("The A5 smartphone is not the same as the cloned A5 smartphone");
