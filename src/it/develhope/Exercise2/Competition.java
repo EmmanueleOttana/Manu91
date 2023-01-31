@@ -18,6 +18,11 @@ public class Competition {
 
         //Stampa
         CompetitionRules.printRules();
-        Team.printTeamDetails();
+        teamA.printTeamDetails();
+        System.out.println(teamA.p1.printProgrammerDetails());
+        System.out.println(teamA.p2.printProgrammerDetails());
+        teamB.printTeamDetails();
+        System.out.println(teamB.p1.printProgrammerDetails());
+        System.out.println(teamB.p2.printProgrammerDetails());
     }
 }
