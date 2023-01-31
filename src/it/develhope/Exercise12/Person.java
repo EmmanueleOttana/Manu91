@@ -8,8 +8,6 @@ public class Person {
     private double height;
     private int age;
 
-    Scanner scanner = new Scanner(System.in);
-
     public String printPerson() {
         return "Person{ " +
                 "name = " + name +
@@ -19,14 +17,20 @@ public class Person {
                 " }";
     }
 
-    public void getPersonDetails() {
-        System.out.println("Please enter name");
-        this.name = scanner.nextLine();
-        System.out.println("Please enter last name");
-        this.surname = scanner.nextLine();
-        System.out.println("Please enter height");
-        this.height = scanner.nextDouble();
-        System.out.println("Please enter age");
-        this.age = scanner.nextInt();
+    public void setName(String name) {
+        this.name = name;
     }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 }
