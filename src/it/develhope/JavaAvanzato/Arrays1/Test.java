@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class Test {
     static int[] genPrimeNum (int numToGenerate){
-        int x = 2, y = 2, target = 0, np[] = new int[numToGenerate];
+        int x = 2, y = 2, target = 0, array[] = new int[numToGenerate];
         for(x = 2; target < numToGenerate;) {
             if (x == y) {
-               np[target] = x;
+               array[target] = x;
                 target++;
                 x++;
                 y = 2;
@@ -18,7 +18,7 @@ public class Test {
                 y++;
             }
         }
-        return np;
+        return array;
     }
     public static void main(String[] args) {
         String[] carBrands = {"Bmw", "Audi", "Fiat", "Ferrari", "Twingo" };
@@ -30,6 +30,6 @@ public class Test {
 
         primeNumbers = genPrimeNum(6);
 
-        System.out.println(Arrays.toString(primeNumbers));
+        System.out.println("The first "+primeNumbers.length+" prime numbers are: "+Arrays.toString(primeNumbers));
     }
 }
