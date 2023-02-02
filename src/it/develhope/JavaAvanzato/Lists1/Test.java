@@ -14,8 +14,7 @@ public class Test {
 
         System.out.println(cityNames.toString());
 
-        List <String> kingsOfRome = new ArrayList<>();
-        kingsOfRome.addAll(Arrays.asList("Romolo","Numa Pompilio","Tullo Ostilio",
+        List <String> kingsOfRome = new ArrayList<>(Arrays.asList("Romolo","Numa Pompilio","Tullo Ostilio",
                 "Anco Marco","Tarquinio Prisco","Servio Tullio","Tarquinio il Superbo"));
 
         System.out.println(kingsOfRome.toString());
