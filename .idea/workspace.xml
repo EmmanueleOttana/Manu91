@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40c70f27-06a9-4760-b9ea-c8d6d6672dd2" name="Changes" comment="All">
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/Cazzeggio/Cazzeggio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/it/develhope/Cazzeggio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exercise23/GeneratedJavadoc/resources/x.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KSEkNOCBVYZ076YX3nkTPdBoYx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\39351\Desktop\Studio\develhopeHelloworld" />
+      <recent name="C:\Users\39351\Desktop\Studio\develhopeHelloworld\src" />
+      <recent name="C:\Users\39351\Desktop\Studio\develhopeHelloworld\src\it\develhope" />
+      <recent name="C:\Users\39351\Desktop\Studio\develhopeHelloworld\src\it\develhope\JavaBase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="it.develhope.Exercise23.GeneratedJavadoc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Months" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAvanzato.Enumerations.Months" />
+      <module name="develhopeHelloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAvanzato.Enumerations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAvanzato.Wildcards2.Test" />
+      <module name="develhopeHelloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAvanzato.Wildcards2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="it.develhope.JavaAvanzato.Lists1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAvanzato.Lists1.Test" />
+      <module name="develhopeHelloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAvanzato.Lists1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="it.develhope.JavaAvanzato.Lists2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAvanzato.Lists2.Test" />
+      <module name="develhopeHelloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAvanzato.Lists2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="it.develhope.JavaAvanzato.WildCards1.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.develhope.JavaAvanzato.WildCards1.Test" />
+      <module name="develhopeHelloworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.develhope.JavaAvanzato.WildCards1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Months" />
+        <item itemvalue="Application.it.develhope.JavaAvanzato.WildCards1.Test" />
+        <item itemvalue="Application.it.develhope.JavaAvanzato.Lists2.Test" />
+        <item itemvalue="Application.it.develhope.JavaAvanzato.Lists1.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40c70f27-06a9-4760-b9ea-c8d6d6672dd2" name="Changes" comment="" />
+      <created>1673959728955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673959728955</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Exercise: Other operators">
+      <created>1674427225551</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674427225551</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Classes and Objects - 02">
+      <created>1674481962946</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674481962946</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Exercise: constructor-1">
+      <created>1674482963316</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1674482963316</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Exercise: constructor-2">
+      <created>1674483477262</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1674483477262</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Exercise: 2-interfaces">
+      <created>1674483617884</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674483617884</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Exercise: overload">
+      <created>1674484160085</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1674484160085</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Exercise: 1-abstraction-override">
+      <created>1674484584349</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1674484584349</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Exercise: Polymorphism 1">
+      <created>1674485209651</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1674485209651</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Exercise: Polymorphism 2">
+      <created>1674486003446</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1674486003446</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Exercise: classes-and-objects-2">
+      <created>1674492746552</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674492746552</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Exercise: Encapsulation 1">
+      <created>1674493444664</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1674493444664</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Exercise: Encapsulation 2">
+      <created>1674495384724</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1674495384724</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Exercise: If Statement 3">
+      <created>1674496005593</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496005593</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Exercise: If Statement 4">
+      <created>1674496544182</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1674496544182</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Team Project">
+      <created>1674570113796</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1674570113797</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Exercise: String handling 1">
+      <created>1674602390562</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1674602390562</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Exercise: String handling 2">
+      <created>1674606742631</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1674606742631</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Exercise: String handling 3">
+      <created>1674748414573</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1674748414573</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Exercise: String handling 4">
+      <created>1674755641635</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1674755641635</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Exercise: Regex 1">
+      <created>1674816148182</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1674816148183</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Exercise: Regex 2">
+      <created>1674828080256</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1674828080256</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Exercise: Regex 3">
+      <created>1674828701416</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1674828701416</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Exercise: Regex 4">
+      <created>1674829859220</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1674829859220</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Exercise: Date Time 1">
+      <created>1674914781861</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1674914781861</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Exercise: Date Time 2">
+      <created>1674925498625</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1674925498625</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Exercise: static">
+      <created>1675013592611</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1675013592611</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Exercise: Enumerations">
+      <created>1675013637710</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1675013637710</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Exercise: 2-interfaces">
+      <created>1675027904542</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1675027904550</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Exercise: Encapsulation 1">
+      <created>1675028663828</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1675028663828</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Exercise: Encapsulation 2">
+      <created>1675029703784</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1675029703784</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Exercise: If Statement 4">
+      <created>1675030301222</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1675030301222</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Exercise: String handling 2">
+      <created>1675030978925</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1675030978925</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Exercise: classes-and-objects-2">
+      <created>1675031737867</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1675031737867</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Exercise: default methods override">
+      <created>1675153493031</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1675153493031</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Exercise: classes-and-objects-2">
+      <created>1675161060965</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1675161060965</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Exercise: Encapsulation 1">
+      <created>1675166526490</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1675166526490</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Exercise: Encapsulation 2">
+      <created>1675167600585</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1675167600585</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Exercise: arrays-1">
+      <created>1675191778384</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1675191778384</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Exercise: arrays-1">
+      <created>1675218222590</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1675218222590</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Exercise: arrays-2">
+      <created>1675294971439</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1675294971440</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Exercise: lists 1">
+      <created>1675369191538</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1675369191538</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Exercise: lists 1">
+      <created>1675369378730</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1675369378730</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Exercise: lists 2">
+      <created>1675432356304</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1675432356304</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Exercise: lists 2">
+      <created>1675432571825</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1675432571825</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Exercise: lists 2">
+      <created>1675432630786</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1675432630786</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Exercise: generics-wildcards-1">
+      <created>1675525324794</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1675525324802</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Exercise: generics-wildcards-2">
+      <created>1675620514589</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1675620514589</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Exercise: Enumerations">
+      <created>1675627117345</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1675627117345</updated>
+    </task>
+    <task id="LOCAL-00080" summary="All">
+      <created>1675639611616</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1675639611616</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Exercise: String handling 1" />
+    <MESSAGE value="Exercise: String handling 3" />
+    <MESSAGE value="Exercise: String handling 4" />
+    <MESSAGE value="Exercise: Regex 1" />
+    <MESSAGE value="Exercise: Regex 2" />
+    <MESSAGE value="Exercise: Regex 3" />
+    <MESSAGE value="Exercise: Regex 4" />
+    <MESSAGE value="Exercise: Date Time 1" />
+    <MESSAGE value="Exercise: Date Time 2" />
+    <MESSAGE value="Exercise: static" />
+    <MESSAGE value="Exercise: 2-interfaces" />
+    <MESSAGE value="Exercise: If Statement 4" />
+    <MESSAGE value="Exercise: String handling 2" />
+    <MESSAGE value="Exercise: default methods override" />
+    <MESSAGE value="Exercise: classes-and-objects-2" />
+    <MESSAGE value="Exercise: Encapsulation 1" />
+    <MESSAGE value="Exercise: Encapsulation 2" />
+    <MESSAGE value="Exercise: arrays-1" />
+    <MESSAGE value="Exercise: arrays-2" />
+    <MESSAGE value="Exercise: lists 1" />
+    <MESSAGE value="Exercise: lists 2" />
+    <MESSAGE value="Exercise: generics-wildcards-1" />
+    <MESSAGE value="Exercise: generics-wildcards-2" />
+    <MESSAGE value="Exercise: Enumerations" />
+    <MESSAGE value="All" />
+    <option name="LAST_COMMIT_MESSAGE" value="All" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
