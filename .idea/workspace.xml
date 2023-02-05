@@ -10,7 +10,6 @@
     <list default="true" id="40c70f27-06a9-4760-b9ea-c8d6d6672dd2" name="Changes" comment="All">
       <change afterPath="$PROJECT_DIR$/src/it/develhope/Cazzeggio/Cazzeggio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/it/develhope/Cazzeggio/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/it/develhope/Exercise23/GeneratedJavadoc/resources/x.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673959728955</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Exercise: Other operators">
-      <created>1674427225551</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1674427225551</updated>
     </task>
     <task id="LOCAL-00033" summary="Classes and Objects - 02">
       <created>1674481962946</created>
@@ -487,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675639611616</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="All">
+      <created>1675639981889</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1675639981889</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -503,7 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Exercise: String handling 1" />
     <MESSAGE value="Exercise: String handling 3" />
     <MESSAGE value="Exercise: String handling 4" />
     <MESSAGE value="Exercise: Regex 1" />
@@ -527,6 +525,7 @@
     <MESSAGE value="Exercise: generics-wildcards-1" />
     <MESSAGE value="Exercise: generics-wildcards-2" />
     <MESSAGE value="Exercise: Enumerations" />
+    <MESSAGE value="Java base" />
     <MESSAGE value="All" />
     <option name="LAST_COMMIT_MESSAGE" value="All" />
   </component>
