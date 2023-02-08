@@ -1,4 +1,4 @@
-package it.develhope.JavaAvanzato.Lists1;
+package it.develhope.javaAvanzato.lists1;
 
 import java.util.ArrayList;
 import java.util.Arrays;

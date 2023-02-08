@@ -1,4 +1,4 @@
-package it.develhope.JavaAvanzato.Arrays1;
+package it.develhope.javaAvanzato.arrays1;
 
 import java.util.Arrays;
 

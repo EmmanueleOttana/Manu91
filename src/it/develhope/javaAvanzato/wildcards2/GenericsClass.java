@@ -1,4 +1,4 @@
-package it.develhope.JavaAvanzato.Wildcards2;
+package it.develhope.javaAvanzato.wildcards2;
 
 import java.util.Objects;
 

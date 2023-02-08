@@ -1,4 +1,4 @@
-package it.develhope.JavaAvanzato.Enumerations;
+package it.develhope.javaAvanzato.enumerations;
 
 public class Months {
     public static void main(String[] args) {

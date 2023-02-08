@@ -1,4 +1,4 @@
-package it.develhope.JavaAvanzato.WildCards1;
+package it.develhope.javaAvanzato.wildCards1;
 
 import java.util.List;
 

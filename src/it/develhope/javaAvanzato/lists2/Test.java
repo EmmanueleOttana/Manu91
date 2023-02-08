@@ -1,8 +1,7 @@
-package it.develhope.JavaAvanzato.Lists2;
+package it.develhope.javaAvanzato.lists2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class Test {
