@@ -1,4 +1,4 @@
-package it.develhope.javaAvanzato.wildcards2;
+package it.develhope.javaAvanzato.wildCards2;
 
 public class Test {
     public static void main(String[] args) {
