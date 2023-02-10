@@ -1,6 +1,6 @@
 package it.develhope.javaAvanzato.forLoop2;
 
-public class forLoop2 {
+public class ForLoop2 {
     public static void main(String[] args) {
 
         {
