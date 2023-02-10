@@ -1,0 +1,7 @@
+scrivi un ciclo che
+richiede un input int dall'utente
+(utilizzando Scannere nextLine()):
+Please enter a command
+
+stampa il comando immesso dall'utente
+si ferma solo se il comando immesso è uguale a stop
