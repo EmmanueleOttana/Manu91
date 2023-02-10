@@ -29,5 +29,4 @@ bin/
 .DS_Store
 
 ### Main (Cazzeggio)
-it.develhope/Main.java
-
+src/it/develhope/Main.java
