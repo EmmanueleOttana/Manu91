@@ -1,4 +1,4 @@
-package it.develhope.whileLoop3;
+package it.develhope.javaAvanzato.whileLoop3;
 
 public class WhileLoop3 {
     public static void main(String[] args) {
