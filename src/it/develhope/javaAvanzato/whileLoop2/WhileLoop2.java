@@ -1,4 +1,4 @@
-package it.develhope.whileLoop2;
+package it.develhope.javaAvanzato.whileLoop2;
 
 import java.util.Scanner;
 
