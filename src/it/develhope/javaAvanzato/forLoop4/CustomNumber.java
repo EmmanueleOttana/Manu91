@@ -9,7 +9,7 @@ public class CustomNumber {
     }
     public void getMultiplicationTable(){
         for (int i = 12; i > 0; i--) {
-            System.out.println(i);
+            System.out.println(number * i);
         }
     }
 }
