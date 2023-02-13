@@ -1,8 +1,11 @@
-1) Creare una classe Skill che ha i seguenti attributi:
--
-Scrivere un costruttore, getters e setters per
-gli ultimi due attributi, di cui bisogna ve-
+Creare una classe Skill che ha i seguenti attributi:
+- name: String
+- damage: int
+- mana: int
+Scrivere un costruttore, getters e setters per gli
+ ultimi due attributi, di cui bisogna ve-
 rificare che i parametri in input siano positivi.
+
 2) Creare una classe astratta Character che ha i
  seguenti attributi:
 - name: String
@@ -11,9 +14,7 @@ rificare che i parametri in input siano positivi.
 - skills: ArrayList<Skill>
 
 Scrivere il costruttore che setta name, lifePoints
- e manaPoints,
-
-  con la lista skills
+ e manaPoints, con la lista skills
 inizializzata vuota.
 
  Vogliamo inoltre un getter per
@@ -33,6 +34,7 @@ Points maggiore di 0).
 La classe astratta espone infine il seguente
 metodo astratto:
 - attack(Character pg, Skill s)
+
 3) Creare una classe Warrior sottoclasse di
 Character che espone in più il seguente at-
 tributo:
@@ -41,32 +43,40 @@ tributo:
 Scrivere un costruttore che inizializzi anche
 questo attributo, con rispettivi setter e
 getter. Eseguire poi l’override del metodo
-attack nel quale il valore di lifePoints del
+attack
+
+nel quale il valore di lifePoints del
 Character pg attaccato viene diminuito in base
 al danno della Skill s a cui si somma il
 valore strenght dell’oggetto Warrior (sempre
  se il mana è sufficiente per attaccare).
+
 4) Creare una classe Wizard sottoclasse di
  Character che espone un attributo aggiunti-
 vo:
 - abilityPower: int
 Scrivere un costruttore che inizializzi anche
  questo attributo, con rispettivi setter e
-getter. Eseguire poi l’override del metodo
+getter.
+
+Eseguire poi l’override del metodo
  attack nel quale il valore di lifePoints del
 Character pg attaccato viene diminuito in
 base al danno della Skill s a cui si moltipli-
 ca il valore abilityPower dell’oggetto Wizard,
  dividendo il risultato finale per 2 (sem-
 pre se il mana è sufficiente per attaccare).
+ --------------------
 5) Scrivere una classe Main nel quale testiamo
 il nostro programma. Svolgere i se-
 guenti passaggi:
+
 - Creare quattro oggetti di tipo Skill.
 - Creare un Warrior e un Wizard.
 - Assegnare due Skill al Warrior e due Skill
  al WIzard.
 - Eseguire due attacchi a testa.
+
 - Stampare se i due personaggi sono vivi.
 I valori per gli attributi sono a discrezione
  dello studente
