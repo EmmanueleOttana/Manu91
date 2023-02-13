@@ -1,43 +1,28 @@
 package it.develhope.simEsame.marco;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Skill {
     String name;
-    int lifePoints;
-    int manaPoints;
-    List <Skill> skills = new ArrayList<>();
+    int damage;
+    int mana;
 
     public Skill(String name, int damage, int mana) {
         this.name = name;
-        this.lifePoints = damage;
-        this.manaPoints = mana;
+        this.damage = damage;
+        this.mana = mana;
     }
 
     public String getName() { return name; }
 
-    public int getLifePoints() { return lifePoints; }
+    public int getDamage() { return damage; }
 
-    public void setLifePoints(int lifePoints) { this.lifePoints = lifePoints; }
-
-    public int getManaPoints() { return manaPoints; }
-
-    public void setManaPoints(int manaPoints) { this.manaPoints = manaPoints; }
-
-    public void addSkill(Skill s){
-        skills.add(s);
+    public void setDamage(int damage) {
+        if (damage >= 0) { this.damage = damage; }
     }
 
-    public Skill getSkill(int i){
-        return skills.get(i);
-    }
+    public int getMana() { return mana; }
 
-    public boolean isAlive(){
-        if (lifePoints > 0){
-            return true;
-        }else return false;
+    public void setMana(int mana) {
+        if (mana >= 0) { this.mana = mana; }
     }
-
 
 }
