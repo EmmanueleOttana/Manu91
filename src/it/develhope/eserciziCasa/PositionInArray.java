@@ -2,7 +2,7 @@ package it.develhope.eserciziCasa;
 
 public class PositionInArray {
 
-    static void x (int target, int[] arr){
+    static void search(int target, int[] arr){
         int i = 0;
         for ( int value : arr) {
             if ( value == target) {
@@ -27,7 +27,7 @@ public class PositionInArray {
 
         int [] nums = {1,3,5,6};
 
-        x(10,nums);
+        search(10,nums);
 
     }
 }
