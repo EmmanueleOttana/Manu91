@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Database {
-
     protected List <Abitazione> abitaziones = new ArrayList<>();
     protected List <Utente> utentis = new ArrayList<>();
     protected List <Host> proprietaris = new ArrayList<>();
@@ -72,6 +71,20 @@ public class Database {
 
     public List<Feedback> getFeedbacks() {
         return feedbacks;
+    }
+
+    public String[] printSuperHost (){
+        String[] sh = new String[superHost.size()];
+        for (int i = 0; i < superHost.size(); i++) {
+            sh[i] = superHost.get(i).getUsername();
+        }
+        return sh;
+    }
+
+    @Deprecated
+    public void daCancellare(Host host1, Host host2){
+        superHost.add(host1);
+        superHost.add(host2);
     }
 
 }

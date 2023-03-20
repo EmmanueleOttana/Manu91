@@ -22,7 +22,7 @@ public class Utente {
             Piattaforma.generatoreID ++;
             this.idFeedback = Piattaforma.generatoreID;
             proprietario.setListFeedback(punteggio_1a5);
-            System.out.print("Feedback di "+this.nome+": "+"al proprietario " + proprietario.username +
+            System.out.print("Feedback di "+this.nome+": "+"al proprietario " + proprietario.getUsername() +
                     " per l'abitazione ''"+casa.getNomeLocale()+"''{ " + titolo.toUpperCase() + " }");
             System.out.println("{ " + testo + " }");
         }else System.out.println("Valore punteggio feedback errato!");
@@ -32,21 +32,22 @@ public class Utente {
 
     public String getCognome() { return cognome; }
 
+    public String getFullNameID(){ return cognome + nome + idUtente; };
+
     public String getEmail() { return email; }
 
     public String getIndirizzo() { return indirizzo; }
 
     public int getIdFeedback() { return idFeedback; }
 
-    @Deprecated
-    public void printDetailsUtente() {
-        System.out.println("Utente{ " +
+    public String printDetailsUtente() {
+        return "Utente{ " +
                 "nome = " + nome +
                 ", cognome = " + cognome +
                 ", email = " + email +
                 ", indirizzo = " + indirizzo +
                 ", idUtente = " + idUtente +
                 ", idFeedback = " + idFeedback +
-                '}');
+                '}';
     }
 }

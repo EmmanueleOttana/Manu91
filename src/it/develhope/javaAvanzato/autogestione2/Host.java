@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Host {
 
-    String username;
+    private String username;
     private int codiceHost;
     private int numPrenotazioni = 0;
     private List <Integer> listFeedback = new ArrayList<>();
@@ -22,12 +22,12 @@ public class Host {
         this.numPrenotazioni ++;
     }
 
-    public void printSuperHost(){
+    public String printSuperHost(){
         if (this.numPrenotazioni >= 100){
-            System.out.println("Hai totalizzato "+ this.numPrenotazioni +" prenotazioni");
-            System.out.println("Congratulazioni, sei un SUPER-HOST!");
-        }else System.out.println("Hai totalizzato "+ this.numPrenotazioni +" prenotazioni, ancora "+
-                (100 - this.numPrenotazioni) +" prenotazioni e diventerai un SUPER-HOST!" );
+            return  "[ Hai totalizzato "+ this.numPrenotazioni +" prenotazioni ]\n" +
+            "<<Congratulazioni, sei un SUPER-HOST!>>";
+        }else return  "[ Hai totalizzato "+ this.numPrenotazioni +" prenotazioni, ancora "+
+                (100 - this.numPrenotazioni) +" prenotazioni e diventerai un SUPER-HOST! ]";
     }
     public void casaHost(List list, Abitazione abitazione){
         list.add(abitazione);
@@ -38,6 +38,8 @@ public class Host {
     public int getCodiceHost() { return codiceHost; }
 
     public void setCodiceHost(int codiceHost) { this.codiceHost = codiceHost; }
+
+    public String getUsername() { return username; }
 
     public double getPunteggioFeedback() {
         return punteggioFeedback;
@@ -54,16 +56,12 @@ public class Host {
         this.listFeedback.add(listFeedback);
     }
 
-    @Deprecated
-    public void printDetailsHost() {
-        System.out.println("Host "+ this.username + "{" +
-                "codiceHost = " + codiceHost +
-                ", numPrenotazioni = " + numPrenotazioni +
-                '}');
-        printSuperHost();
+    public String printDetailsHost() {
+        return "Host "+ this.username + " {" +
+                "codiceHost = " + this.codiceHost +
+                ", numPrenotazioni = " + this.numPrenotazioni +
+                "}\n" + printSuperHost();
     }
     @Deprecated
-    public void printArray(){
-        listFeedback.forEach(x -> System.out.println(x));
-    }
+    public void printArray(){ listFeedback.forEach(System.out::println); }
 }

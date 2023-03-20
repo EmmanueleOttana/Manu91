@@ -56,17 +56,16 @@ public class Abitazione {
     public void setPiano(int piano) { this.piano = piano; }
     public double getCostoGiornaliero() { return costoGiornaliero; }
 
-    @Deprecated
-    public void printDetailsHouse() {
-        System.out.println("id = " + id +
-                ", nomeLocale = '" + nomeLocale + '\'' +
-                ", indirizzo = '" + indirizzo + '\'' +
+    public String printDetailsHouse() {
+        return "id = " + id +
+                ", nomeLocale = " + nomeLocale +
+                ", indirizzo = " + indirizzo +
                 ", numLocali = " + numLocali +
                 ", numPostiLetto = " + numPostiLetto +
                 ", piano = " + piano +
                 ", costoGiornaliero € = " + costoGiornaliero +
-                ", proprietario = " + proprietario.username +
-                '}');
+                ", proprietario = " + proprietario.getUsername() +
+                '}';
     }
 
 }
